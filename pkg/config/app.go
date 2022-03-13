@@ -20,8 +20,3 @@ func Connections() {
 func GetDB() *gorm.DB {
 	return db
 }
-
-query := ("
-	SELECT username FROM table WHERE passwor
-");
-
